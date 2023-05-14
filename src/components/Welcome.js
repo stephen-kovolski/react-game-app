@@ -2,7 +2,10 @@ import React from "react";
 
 function Welcome(){
     return(
-        <h1>Welcome to the Hotel!!</h1>
+        <div>
+            <h1>Welcome to the Hotel!!</h1>
+            
+        </div>
     )
 }
 
