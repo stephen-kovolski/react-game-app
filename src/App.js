@@ -6,7 +6,12 @@ function App() {
   return (
     <div className="App">
       <Welcome />
-      <PickRoom />
+      <div className='roomButton'>
+        <PickRoom room="101"/>
+        <PickRoom room="102"/>
+        <PickRoom room="103"/>
+      </div>
+
     </div>
   );
 }

@@ -1,6 +1,13 @@
 .App {
   text-align: center;
+  
 }
+
+.roomButton {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +43,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
