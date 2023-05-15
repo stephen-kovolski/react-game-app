@@ -14,6 +14,8 @@ selectedRoom.available = false;
 console.log(rooms);
 }
 
+/*******************************************************************************************************/
+
 function PickRoom(props) {
 const [roomAvailable, setRoomAvailable] = useState(true); // Added state to track room availability
 
