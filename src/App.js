@@ -1,7 +1,6 @@
 import './App.css';
 import Welcome from './components/Welcome';
 import PickRoom from './components/PickRoom';
-import rooms from './components/PickRoom'
 
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Welcome />
-      <PickRoom func={pull_data}/>
+      <PickRoom />
     </div>
   );
 }
